@@ -7,6 +7,6 @@ function output = kanal_BSC(data,p)
     bern = rand(size(data)) < p;
     
     % Inwersja bitów zgodnie z wartościami wylosowanymi
-    values = xor(data,bern)
-    output = double(values)
+    values = xor(data,bern);
+    output = double(values);
 end
