@@ -1,5 +1,5 @@
 % Funkcja kodującą dane
-function encoded = zakoduj(data,multi)
+function encoded = koder_kodNadmiarowy(data,multi)
    if multi <= 0
        error('!Multi < 0')
    end

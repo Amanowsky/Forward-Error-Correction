@@ -1,5 +1,5 @@
 % Funkcja dekodująca i korygująca błędy za pomocą algorytmu głosującego
-function decoded = dekoduj(data,multi)
+function decoded = dekoder_kodNadmiarowy(data,multi)
     
     % Przygotowanie miejsca dla odkodowanych danych
     decoded = zeros(1, length(data)/multi);

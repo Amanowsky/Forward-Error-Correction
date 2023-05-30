@@ -1,5 +1,5 @@
 % Funkcja losująca dane
-function output = generuj_dane(n)
+function output = generator(n)
     % Wygenerowanie n losowych danych
     output = randi([0,1],1,n);
 end
