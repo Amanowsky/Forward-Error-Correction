@@ -1,2 +1,0 @@
-Ilość danych: 10000  Bity: 3  Kanał: BSC  Dot.Kanału: 0.010000 
-Ilość błędów 4 
